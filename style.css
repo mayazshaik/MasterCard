@@ -1,0 +1,55 @@
+*{
+   margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    color:white;
+    font-family: sans-serif;
+    font-weight:400;
+
+}
+#parent{
+    height:18rem;
+    width:28rem;
+    background-color:black;
+    margin:200px 500px;
+    border-radius:15px;
+    padding:0px;
+
+}
+.div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:20px 30px;  
+}
+
+.name{
+    margin-left:70px;
+    position: relative;
+    bottom: 45px ;
+}
+.sim-logo img{
+    width:70px;
+    height:40px;
+    border-radius:10px;
+}
+.div2{
+    position:relative;
+    left:30px;
+    bottom:10px;
+    display:flex;
+    flex-direction:column;
+    row-gap:2px;
+
+}
+.card-holder-name p{
+    position:relative;
+    left:2rem;
+    top:30px;
+    font-family: cursive;
+
+}
+.validity{
+    position:relative;
+    left:21.5rem;
+}
